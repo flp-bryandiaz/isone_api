@@ -1,0 +1,61 @@
+# Temporary Python files
+*.pyc
+*.egg-info/
+__pycache__/
+.ipynb_checkpoints/
+setup.py
+pip-wheel-metadata/
+
+# Temporary OS files
+Icon*
+
+# Temporary virtual environment files
+/.cache/
+/.venv/
+tmp/
+
+# Temporary server files
+.env
+*.pid
+
+# Generated documentation
+/docs/gen/
+/docs/apidocs/
+/site/
+/*.html
+/docs/*.png
+
+# Google Drive
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+
+# Testing and coverage results
+/.coverage
+/.coverage.*
+/htmlcov/
+/prof/
+coverage.xml
+
+# Build and release directories
+/build/
+/dist/
+*.spec
+
+# Sublime Text
+*.sublime-workspace
+
+# Eclipse
+.settings
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+.idea/
+.vimspector.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
